@@ -1,10 +1,11 @@
-source "gpg -dq $HOME/.my_passwd.gpg |"
+# source "gpg -dq $HOME/.my_passwd.gpg |"
+set my_pass = "`pass google.com/gmail/flhansen.93@gmail.com`"
 
 set imap_user = "flhansen.93@gmail.com"
-set imap_pass = $my_gmail_pass
+set imap_pass = $my_pass
 
 set smtp_url = "smtps://flhansen.93@gmail.com@smtp.gmail.com:465"
-set smtp_pass = $my_gmail_pass
+set smtp_pass = $my_pass
 set smtp_authenticators = "gssapi:login"
 
 set folder = "imaps://imap.gmail.com"
