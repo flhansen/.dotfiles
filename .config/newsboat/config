@@ -1,0 +1,4 @@
+highlight feedlist "---.*---" red default bold
+highlight feedlist ".*0/0.." default default invis
+
+macro v set browser "mpv %u" ; open-in-browser ; set browser "firefox %u"
